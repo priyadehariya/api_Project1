@@ -1,0 +1,34 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iis": {
+      "applicationUrl": "http://localhost/PiyaAPIs",
+      "sslPort": 0
+    },
+    "iisExpress": {
+      "applicationUrl": "http://localhost/PDMAPI",
+      "sslPort": 44382
+    }
+  },
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "api/EmployeeMasters",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "astoriaTrainingAPI_": {
+      "commandName": "IIS",
+      "launchBrowser": true,
+      "launchUrl":  "api/EmployeeMasters",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:5001;http://localhost:5000"
+    }
+  }
+}

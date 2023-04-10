@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>astoriaTrainingAPI”</name>
+    </assembly>
+    <members>
+        <member name="M:astoriaTrainingAPI_.Controllers.EmployeeAttendancesController.GetEmployeeAttendance(System.String,System.Int32)">
+            <summary>
+            This method returns the all attendaces by passing FilterClockDate and FilterCompanyID
+            </summary>
+            <param name="FilterClockDate"></param>
+            <param name="FilterCompanyID"></param>
+            <returns>
+            
+            </returns>
+        </member>
+        <member name="M:astoriaTrainingAPI_.Controllers.EmployeeAttendancesController.PostEmployeeAttendance(System.Collections.Generic.List{astoriaTrainingAPI_.Models.EmployeeAttendance})">
+            <summary>
+            This method used to post the Employee Attendace 
+            </summary>
+            <param name="employeeAttendanceList"></param>
+            <returns></returns>
+        </member>
+        <member name="M:astoriaTrainingAPI_.Controllers.EmployeeMastersController.GetEmployees">
+            <summary>
+            This method returns all Employees
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:astoriaTrainingAPI_.Controllers.EmployeeMastersController.GetEmployeeMaster(System.Int64)">
+            <summary>
+            This method return Employee passing EmployeeKey
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:astoriaTrainingAPI_.Controllers.EmployeeMastersController.PutEmployeeMaster(System.Int64,astoriaTrainingAPI_.Models.EmployeeMaster)">
+            <summary>
+            This method used to Edit by passing EmployeeKey
+            </summary>
+            <param name="id"></param>
+            <param name="employeeMaster"></param>
+            <returns></returns>
+        </member>
+        <member name="M:astoriaTrainingAPI_.Controllers.EmployeeMastersController.PostEmployeeMaster(astoriaTrainingAPI_.Models.EmployeeMaster)">
+            <summary>
+            This method used to post the employees
+            </summary>
+            <param name="employeeMaster"></param>
+            <returns></returns>
+        </member>
+        <member name="M:astoriaTrainingAPI_.Controllers.EmployeeMastersController.DeleteEmployeeMaster(System.Int64)">
+            <summary>
+            Delete an employee permanantly from database
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:astoriaTrainingAPI_.Controllers.UserInfoesController.PostUserInfo(astoriaTrainingAPI_.Models.UserInfo)">
+            <summary>
+            This method used to  saving new user  
+            </summary>
+            <param name="UserInfo"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
